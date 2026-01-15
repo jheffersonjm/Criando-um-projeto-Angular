@@ -1,0 +1,8 @@
+<p>lista-componentes works!</p>
+<ul>
+    @for (p of produtos; track p.nome){ 
+        <li>
+            {{p.nome}} - {{p.preco | currency:'BRL'}}
+        </li>
+    }
+</ul>
